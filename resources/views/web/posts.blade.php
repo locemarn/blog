@@ -4,7 +4,7 @@
 <div class="container">
   <div class="row">
 
-    <div class="col-md-8 col-md-offset-2">
+    <div class="col-md-8 col-md-offset-2 col-xs-8">
       <h1>Lista de artigos</h1>
       @foreach($posts as $post)
       <div class="panel panel-default">
