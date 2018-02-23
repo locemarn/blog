@@ -3,7 +3,8 @@
 @section('content')
   <div class="container">
     <div class="row">
-      <div class="col-md-8 col-md-offset-2">
+      <div class="col-2"></div>
+      <div class="col-8">
         <div class="panel panel-default">
           <div class="panel-heading">
             Lista de Tags
@@ -29,13 +30,13 @@
                   <td>{{ $tag->name }}</td>
                   <td width="10px">
                     <a href="{{ route('tags.show', $tag->id) }}" 
-                        class="btn bt-sm btn-secondary">
+                        class="btn bt-sm btn-outline-secondary">
                         See
                       </a>
                     </td>
                     <td width="10px">
                       <a href="{{ route('tags.edit', $tag->id) }}" 
-                          class="btn bt-sm btn-secondary">
+                          class="btn bt-sm btn-outline-secondary">
                           edit
                         </a>
                       </td>
