@@ -7,7 +7,7 @@
       <div class="col-8">
         <div class="panel panel-default">
           <div class="panel-heading">
-            Lista de Tags
+            Tag List
             <a href="{{ route('tags.create') }}" 
             class=" float-right btn btn-sm btn-primary ">
               Create
